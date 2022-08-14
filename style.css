@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.black{
+    background: black;
+}
+
+.font-style{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.px-40{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: black;
+}
+
+/* nav design */
+
+.nav{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+.nav-brand a{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-link{
+    display: flex;
+ 
+}
+
+.nav-item{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.nav-item:hover{
+    background: black;
+   
+}
+
+.nav-item a:hover{
+    color: white;
+   
+}
+
+/* end */
+
+/* mai section */
+.main-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.product-section{
+    margin-top: 100px;
+   
+    width: 100%;
+    align-self: center;
+
+}
+
+.text-section{
+    margin-top: 150px;
+    margin-bottom: 20px;
+   
+}
+
+@media (max-width: 768px){
+    .main-section{
+        grid-template-columns: 1fr;
+    }
+    .text-section{
+        margin-top: 20px;
+    }
+    .text-section p{
+        width: 100%;
+    }
+}
+
